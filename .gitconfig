@@ -1,0 +1,7 @@
+[user]
+	email = anowlbear@protonmail.com
+	name = An-Owlbear
+[core]
+	pager = nvim -R
+[color]
+	pager = no
