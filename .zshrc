@@ -140,10 +140,9 @@ unset key
 
 
 # User Config
-export PATH="$PATH:$(go env GOBIN):$(go env GOPATH)/bin"
 export MANPAGER='nvim +Man!'
 export PAGER='nvim'
-
-# Created by `pipx` on 2024-03-10 19:15:16
-export PATH="$PATH:/home/george/.local/bin"
 alias dotfiles='/usr/bin/git --git-dir=/home/george/projects/dotfiles --work-tree=$HOME'
+export SUDO_EDITOR='vim'
+source ~/.local.zsh
+
