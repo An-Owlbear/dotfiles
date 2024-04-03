@@ -14,6 +14,7 @@ To install the dotfiles, run the following commands
 git clone --bare https://github.com/An-Owlbear/dotfiles $HOME/.dotfiles
 git --git-dir=$HOME/.dotfiles --work-tree=$HOME checkout
 source .zshrc
+dotfiles config status.showuntrackedfiles no
 ```
 
 The neovim configuration used in this repo is based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)

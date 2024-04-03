@@ -142,7 +142,7 @@ unset key
 # User Config
 export MANPAGER='nvim +Man!'
 export PAGER='nvim'
-alias dotfiles='/usr/bin/git --git-dir=/home/george/projects/dotfiles --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 export SUDO_EDITOR='vim'
 source ~/.local.zsh
 
