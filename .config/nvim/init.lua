@@ -624,6 +624,7 @@ require('lazy').setup({
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
+        python = { 'YAPF' }
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
@@ -796,7 +797,7 @@ require('lazy').setup({
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
       require('mini.files').setup()
-      vim.keymap.set('n', '<leader>f', '<cmd>lua MiniFiles.open()<CR>', { desc = 'View [f]iles' })
+      vim.keymap.set('n', '<leader>F', '<cmd>lua MiniFiles.open()<CR>', { desc = 'View [f]iles' })
     end,
   },
   { -- Highlight, edit, and navigate code
