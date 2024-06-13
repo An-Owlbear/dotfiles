@@ -133,7 +133,7 @@ vim.opt.updatetime = 250
 
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
-vim.opt.timeoutlen = 300
+vim.opt.timeoutlen = 0
 
 -- Configure how new splits should be opened
 vim.opt.splitright = true
@@ -796,8 +796,6 @@ require('lazy').setup({
 
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
-      require('mini.files').setup()
-      vim.keymap.set('n', '<leader>F', '<cmd>lua MiniFiles.open()<CR>', { desc = 'View [f]iles' })
     end,
   },
   { -- Highlight, edit, and navigate code
