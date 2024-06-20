@@ -143,6 +143,8 @@ unset key
 export MANPAGER='nvim +Man!'
 export PAGER='nvim'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-export SUDO_EDITOR='vim'
+export SUDO_EDITOR='nvim'
 source ~/.local.zsh
 
+# add mise paths
+eval "$(mise activate zsh)"
